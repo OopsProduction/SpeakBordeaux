@@ -1,12 +1,12 @@
 4th Growth
-Chateau Beychevelle [Bear Sher Vell]
-Chateau Branaire Ducru [Bind Nair Doo Cool]
-Chateau Duhart Milon Rothschild [Du Hart Mi Long]
-Chateau La Tour Carnet [La Too Car Net]
-Chateau Prieure Lichine [P Er Li Shin]
-Chateau Talbot [Ta Bo]
+\nChateau Beychevelle\n[Bear Sher Vell]
+\nChateau Branaire Ducru\n[Bind Nair Doo Cool]
+\nChateau Duhart Milon Rothschild\n[Du Hart Mi Long]
+\nChateau La Tour Carnet\n[La Too Car Net]
+\nChateau Prieure Lichine\n[P Er Li Shin]
+\nChateau Talbot\n[Ta Bo]
 
 4th Growth Second Wine
-Connetable de Talbot [Corner Tarb The Ta Bo]
-Duluc de Branaire Ducru [Doo Luke de Bind Nair Doo Cool]
-Les Douves de La Tour Carnet [Lay Duf The La Too Car Net]
+\nConnetable de Talbot\n[Corner Tarb The Ta Bo]
+\nDuluc de Branaire Ducru\n[Doo Luke de Bind Nair Doo Cool]
+\nLes Douves de La Tour Carnet\n[Lay Duf The La Too Car Net]

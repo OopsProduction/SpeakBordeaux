@@ -2,7 +2,7 @@
 Chateau Haut Brion [Oh Bee Yong]
 Great Vintages: 2009, 2006, 2005, 2004, 2001, 2000, 1998, 1990, 1989, 1986, 1982, 1975, 1970, 1966, 1962, 1961, 1959, 1955, 1949, 1947, 1945, 1929, 1928, 1926
 
-Chateau Lafite Rothschild [La Fit]
+Chateau Lafite Rothschild [La Fit Roo Child]
 Great Vintages: 2009, 2005, 2000, 1996, 1990, 1989, 1961, 1959, 1947, 1945, 1929, 1928, 1900
 
 Chateau Latour [La Too]
@@ -11,7 +11,7 @@ Great Vintages: 2009, 2008, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1996
 Chateau Margaux [Mar Go]
 Great Vintages: 2009, 2006, 2005, 2003, 2000, 1996, 1995, 1990, 1989, 1986, 1983, 1982, 1978, 1970, 1966, 1961, 1959, 1949, 1947, 1945, 1929, 1928, 1926, 1900, 1865, 1875
 
-Chateau Mouton Rothschild [Moo Tong]
+Chateau Mouton Rothschild [Moo Tong Roo Child]
 Great Vintages: 2009, 2008, 2006, 2005, 2003, 2000, 1998, 1995, 1986, 1982, 1970, 1966, 1962, 1961, 1959, 1953, 1949, 1947, 1945, 1928, 1926, 1900
 
 1st Growth Second Wine
