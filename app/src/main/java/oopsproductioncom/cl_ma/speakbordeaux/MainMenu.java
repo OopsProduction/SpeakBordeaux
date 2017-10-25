@@ -1,6 +1,7 @@
 package oopsproductioncom.cl_ma.speakbordeaux;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ import java.util.List;
 
 public class MainMenu extends AppCompatActivity {
 
+    // define elements
     private ListView listOption;
     private String[] options;
     private Intent intent;
@@ -22,8 +24,10 @@ public class MainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
+        // create ListView
         listOption = (ListView) findViewById(R.id.listview_options);
-        options = new String[]{"1st Crus", "2nd Crus", "3rd Crus", "4th Crus", "5th Crus"};
+        options = new String[]{"First Growths (Premiers Crus)", "Second Growths (Deuxièmes Crus)", "Third Growths (Troisièmes Crus)",
+                "Fourth Growths (Quatrièmes Crus)", "Fifth Growths (Cinquièmes Crus)", "... other Bordeaux Classifications"};
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, options);
         listOption.setAdapter(arrayAdapter);
@@ -39,6 +43,7 @@ public class MainMenu extends AppCompatActivity {
 
     }
 
+    // load option by user input
     public void loadOption(int x){
         switch (x){
             case 0:
@@ -60,6 +65,12 @@ public class MainMenu extends AppCompatActivity {
             case 4:
                 intent = new Intent(this, Crus_5th.class);
                 startActivity(intent);
+                break;
+            case 5:
+                String url = "http://oops-production.com/BordeauxWine/";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
                 break;
             default:
         }

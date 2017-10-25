@@ -6,11 +6,267 @@
     android:layout_height="match_parent"
     tools:context="oopsproductioncom.cl_ma.speakbordeaux.Crus_2nd">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2nd Crus"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="16dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_2nd_firstwine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n*** 2nd Growths First Wine ***"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_2nd_branecantenac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Brane Cantenac\n[Bind Ken Ter Net]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_hautbrion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_brane_cantenac" />
+
+            <TextView
+                android:id="@+id/txt_2nd_cosdestournel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Cos d Estournel\n[Cost Des Don Nail]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_lafite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_cos_d_estournel" />
+
+            <TextView
+                android:id="@+id/txt_2nd_ducrubeaucaillou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Ducru Beaucaillou\n[Doo Cool Bo Kai You]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_ducrubeaucaillou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_ducru_beaucaillou" />
+
+            <TextView
+                android:id="@+id/txt_2nd_cruaudlarose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Gruaud Larose\n[Gru Oh La Hose]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/txt_2nd_gruaudlarose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_gruaud_larose" />
+
+            <TextView
+                android:id="@+id/txt_2nd_lascombes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Lascombes\n[Las Comb]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_lascombes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_lascombe" />
+
+            <TextView
+                android:id="@+id/txt_2nd_lleovilliebarton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Leoville Barton\n[Leo Feel Bar Ton]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_lleovilliebarton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_leoville_barton" />
+
+            <TextView
+                android:id="@+id/txt_2nd_lleovillielascases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Leoville LasCases\n[Leo Feel Las Cars]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_lleovillielascases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_leoville_lascases" />
+
+            <TextView
+                android:id="@+id/txt_2nd_lleovilliepoyferre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Leoville Poyferre\n[Leo Feel Poi Fi A]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_lleovilliepoyferre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_leoville_poyferre" />
+
+            <TextView
+                android:id="@+id/txt_2nd_montrose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Montrose\n[Mon Rose / Mon Hose]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_montrose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_montrose" />
+
+            <TextView
+                android:id="@+id/txt_2nd_pichonbaron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Pichon Baron\n[P Chon Bar Hong]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_pichonbaron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_pichon_baron" />
+
+            <TextView
+                android:id="@+id/txt_2nd_pichonlalande"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Pichon Lalande\n[P Chon La Long]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_pichonlalande"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_pichon_lalande" />
+
+            <TextView
+                android:id="@+id/txt_2nd_rauzansegla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Rauzan Segla\n[Hall Song See Ga]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_rauzansegla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_rauzan_segla" />
+
+            <TextView
+                android:id="@+id/txt_2nd_rauzangassies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Rauzan Gassies\n[Hall Song Ga See]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_rauzangassies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chateau_rauzan_gassies" />
+
+            <TextView
+                android:id="@+id/txt_2nd_secondwine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\*** 2nd Growths Second Wine ***"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_2nd_chevalierdelascombes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChevalier de Lascombes\n[Share Fa Lee A de Las Comb]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_chevalierdelascombes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_chevalier_de_lascombes" />
+
+            <TextView
+                android:id="@+id/txt_2nd_closdumarquis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nClos du Marquis\n[Claw Do Mar Key]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_closdumarquis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_clos_du_marquis" />
+
+            <TextView
+                android:id="@+id/txt_2nd_reservedulacomtesse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nReserve De La Comtesse\n[Reserve The La Comb Tess]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_2nd_reservedulacomtesse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/second_reserve_de_la_comtesse" />
+
+            <TextView
+                android:id="@+id/txt_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

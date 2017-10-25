@@ -20,7 +20,7 @@
                 android:id="@+id/txt_1st_firstwine"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\n*** 1st Crus First Wine ***"
+                android:text="\n*** 1st Growths First Wine ***"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textAppearance="@style/TextAppearance.AppCompat"
@@ -100,7 +100,7 @@
                 android:id="@+id/txt_1st_secondwine"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\n\*** 1st Crus Second Wine ***"
+                android:text="\n\*** 1st Growths Second Wine ***"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textAppearance="@style/TextAppearance.AppCompat"
@@ -115,7 +115,7 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/img_hahanhautbrion"
+                android:id="@+id/img_1st_hahanhautbrion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/first_bahan_haut_brion_2ndwine_hautbrion" />
@@ -129,7 +129,7 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/img_lesfortsdelatour"
+                android:id="@+id/img_1st_lesfortsdelatour"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/first_les_forts_de_latour_2ndwine_latour" />

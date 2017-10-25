@@ -6,11 +6,253 @@
     android:layout_height="match_parent"
     tools:context="oopsproductioncom.cl_ma.speakbordeaux.Crus_5th">
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="5th Crus"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="16dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_5th_firstwine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n*** 5th Growths First Wine ***"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_5th_batailley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Batailley\n[Bar Tar Yee]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_batailley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_batailley" />
+
+            <TextView
+                android:id="@+id/txt_5th_belgrave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Belgrave\n[Bell Graph]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_belgrave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_belgrave" />
+
+            <TextView
+                android:id="@+id/txt_5th_camensac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Camensac\n[K Man Sac]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_camensac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_camensac" />
+
+            <TextView
+                android:id="@+id/txt_5th_cantemerle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Cantemerle\n[Kong Ta Meir]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_cantemerle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_cantemerle" />
+
+            <TextView
+                android:id="@+id/txt_5th_clercmilon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Clerc Milon\n[Clare Me Long]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_clercmilon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_clerc_milon" />
+
+            <TextView
+                android:id="@+id/txt_5th_darmailhac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau D Armailhac\n[Dar Man Yark]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_darmailhac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_d_armailhac" />
+
+            <TextView
+                android:id="@+id/txt_5th_grandpuylacoste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Grand Puy Lacoste\n[Gwon Pu La Cost]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_grandpuylacoste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_grand_puy_lacoste" />
+
+            <TextView
+                android:id="@+id/txt_5th_hautbageslibreal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Haut Bages Liberal\n[Oh Barch Lip Ber How]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_hautbageslibreal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_haut_bages_liberal" />
+
+            <TextView
+                android:id="@+id/txt_5th_hautbatailley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Haut Batailley\n[Oh Bar Tar Yee]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_hautbatailley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_batailley" />
+
+            <TextView
+                android:id="@+id/txt_5th_lynchbages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Lynch Bages\n[Lin Barch]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_lynchbages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_lynch_bages" />
+
+            <TextView
+                android:id="@+id/txt_5th_pedesclaux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Pedesclaux\n[Pet Des Cause]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_pedesclaux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_pedesclaux" />
+
+            <TextView
+                android:id="@+id/txt_5th_pontetccanet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Pontet Canet\n[Point Tec Ken Net]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_pontetcanet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_pontet_canet" />
+
+            <TextView
+                android:id="@+id/txt_5th_secondwine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\*** 5th Growths Second Wine ***"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_5th_lacosteborie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Lacoste Borie\n[La Cost Bory]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_lacosteborie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_chateau_lacoste_borie" />
+
+            <TextView
+                android:id="@+id/txt_5th_lesalleesdecantemerle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLes Allees de Cantemerle\n[Lay Sar Lee The Kong Ta Meir]"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_5th_lesalleesdecantemerleu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fifth_les_allees_de_cantemerle" />
+
+            <TextView
+                android:id="@+id/txt_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
