@@ -16,6 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainMenu" />
+        <activity
+            android:name=".Crus_1st"
+            android:parentActivityName=".MainMenu" />
+        <activity
+            android:name=".Crus_2nd"
+            android:parentActivityName=".MainMenu" />
+        <activity
+            android:name=".Crus_3rd"
+            android:parentActivityName=".MainMenu" />
+        <activity
+            android:name=".Crus_4th"
+            android:parentActivityName=".MainMenu" />
+        <activity android:name=".Crus_5th"
+            android:parentActivityName=".MainMenu"></activity>
     </application>
 
 </manifest>

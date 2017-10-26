@@ -1,0 +1,18 @@
+5st Growth
+\nChateau Batailley\n[Bar Tar Yee]
+\nChateau Belgrave\n[Bell Graph]
+\nChateau Camensac\n[K Man Sac]
+\nChateau Cantemerle\n[Kong Ta Meir]
+\nChateau Clerc Milon\n[Clare Me Long]
+\nChateau D Armailhac\n[Dar Man Yark]
+\nChateau Dauzac\n[Du Sark]
+\nChateau Grand Puy Lacoste\n[Gwon Pu La Cost]
+\nChateau Haut Bages Liberal\n[Oh Barch Lip Ber How]
+\nChateau Haut Batailley\n[Oh Bar Tar Yee]
+\nChateau Lynch Bages\n[Lin Barch]
+\nChateau Pedesclaux\n[Pet Des Cause]
+\nChateau Pontet Canet\n[Point Tec Ken Net]
+
+5st Growth Second Wine
+\nChateau Lacoste Borie\n[La Cost Bory]
+\nLes Allees de Cantemerle\n[Lay Sar Lee The Kong Ta Meir]

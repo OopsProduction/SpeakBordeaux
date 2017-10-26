@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="oopsproductioncom.cl_ma.speakbordeaux.Crus_1st">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_1st_firstwine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n*** 1st Growths First Wine ***"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_1st_hautbrion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Haut Brion\n[Oh Bee Yong]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_hautbrion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first_chateau_haut_brion" />
+
+            <TextView
+                android:id="@+id/txt_1st_lafite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Lafite Rothschild\n[La Fit Roo Child]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_lafite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first_chateau_lafite_rothschild" />
+
+            <TextView
+                android:id="@+id/txt_1st_latour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Latour\n[La Too]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_latour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first_chateau_latour" />
+
+            <TextView
+                android:id="@+id/txt_1st_margaux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Margaux\n[Mar Go]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_margaux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first_chateau_margaux" />
+
+            <TextView
+                android:id="@+id/txt_1st_mouton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Mouton Rothschild\n[Moo Tong Roo Child]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_mouton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first_chateau_mouton_rothschild" />
+
+            <TextView
+                android:id="@+id/txt_1st_secondwine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\*** 1st Growths Second Wine ***"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_1st_bahanhantbrion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nBahans Haut Brion\n[Ba Aunt Oh Bee Yong]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_hahanhautbrion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first_bahan_haut_brion_2ndwine_hautbrion" />
+
+            <TextView
+                android:id="@+id/txt_1st_lesfortsdelatour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLes Forts de Latour\n[Lay Fort The La Too]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_lesfortsdelatour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first_les_forts_de_latour_2ndwine_latour" />
+
+            <TextView
+                android:id="@+id/txt_1st_pavillonrougedumargaux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nPavillon Rouge du Chateau Margaux\n[Par Vee Yon Whoch]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_1st_pavillonrougeduchateaumargaux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/first_pavillon_rouge_2ndwine_margaux" />
+
+            <TextView
+                android:id="@+id/txt_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

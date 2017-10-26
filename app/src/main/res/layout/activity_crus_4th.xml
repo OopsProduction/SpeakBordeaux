@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="oopsproductioncom.cl_ma.speakbordeaux.Crus_4th">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_4th_firstwine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n*** 4th Growths First Wine ***"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_4th_beychevelle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Beychevelle\n[Bear Sher Vell]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_beychevelle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_chateau_beychevelle" />
+
+            <TextView
+                android:id="@+id/txt_4th_branaireducru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Branaire Ducru\n[Bind Nair Doo Cool]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_branaireducru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_chateau_branaire_ducru" />
+
+            <TextView
+                android:id="@+id/txt_4th_duhartmilon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Duhart Milon Rothschild\n[Du Hart Mi Long]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_duhartmilon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_chateau_duhart_milon_rothschild" />
+
+            <TextView
+                android:id="@+id/txt_4th_latourcarnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau La Tour Carnet\n[La Too Car Net]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_latourcarnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_chateau_la_tour_carnet" />
+
+            <TextView
+                android:id="@+id/txt_4th_prieurelichine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Prieure Lichine\n[P Er Li Shin]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_prieurelichine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_chateau_prieure_lichine" />
+
+            <TextView
+                android:id="@+id/txt_4th_talbot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nChateau Talbot\n[Ta Bo]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_talbot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_chateau_talbot" />
+
+            <TextView
+                android:id="@+id/txt_4th_secondwine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\*** 4th Growths Second Wine ***"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_4th_connetabledetalbot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nConnetable de Talbot\n[Corner Tarb The Ta Bo]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_connetabledetalbot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_connetable_de_talbot" />
+
+            <TextView
+                android:id="@+id/txt_4th_dulucdebranaireducru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nDuluc de Branaire Ducru\n[Doo Luke de Bind Nair Doo Cool]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_dulucdebranaireducru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_duluc_de_branaire_ducru" />
+
+            <TextView
+                android:id="@+id/txt_4th_douvesdelatourcarnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLes Douves de La Tour Carnet\n[Lay Duf The La Too Car Net]"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_4th_douvesdelatourcarnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/forth_les_douves_de_la_tour_carnet" />
+
+            <TextView
+                android:id="@+id/txt_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
